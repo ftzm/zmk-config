@@ -30,7 +30,7 @@
                 &trans &kp SQT       &kp COMMA &kp DOT  &kp P &kp Y &kp C_MUTE &kp C_PP  &kp F     &kp G &kp C     &kp R &kp L &trans
                 &trans &kp A         &kp O     &kp E    &kp U &kp I &kp LALT   &kp RALT  &kp D     &kp H &kp T     &kp N &kp S &trans
                 &trans &mt LGUI SEMI &kp Q     &kp J    &kp K &kp X                      &kp B     &kp M &kp W     &kp V &kp Z &trans
-                           &kp LALT &mo 2 &kp LSHFT     &kp SPACE &mo 1 &kp RCTRL
+                                     &kp LALT &mo 2 &kp LSHFT                            &kp SPACE &mo 1 &kp RCTRL
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
         };
@@ -45,8 +45,8 @@
             bindings = <
    &trans &kp EXCL  &kp AT    &kp LBRC &kp RBRC &kp PIPE   &trans &trans   &kp AMPS &kp N7 &kp N8 &kp N9 &kp STAR &trans
    &trans &kp HASH  &kp DLLR  &kp LPAR &kp RPAR &kp GRAVE  &trans &trans   &trans   &kp N4 &kp N5 &kp N6 &kp PLUS &trans
-   &trans &kp PRCNT &kp CARET &kp LBKT &kp RBKT &kp TILDE     &kp N0   &kp N1 &kp N2 &kp N3 &kp BSLH &kp &trans
-                       &trans   &mo 3    &trans        &trans   &mo 3  &trans
+   &trans &kp PRCNT &kp CARET &kp LBKT &kp RBKT &kp TILDE                  &kp N0   &kp N1 &kp N2 &kp N3 &kp BSLH &trans
+                              &trans   &mo 3    &trans                     &trans   &mo 3  &trans
                 // &kp TAB   &kp N1       &kp N2          &kp N3       &kp N4       &kp N5       &kp LCTRL &kp RCTRL &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
                 // &kp LCTRL &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp LALT  &kp RALT  &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
                 // &kp LSHFT &bt BT_CLR   &rgb_ug RGB_TOG &sys_reset   &bootloader  &studio_unlock                   &trans   &trans   &trans &trans    &trans &trans
